@@ -1,7 +1,7 @@
 package com.miqdad71.arkaproject2.kotlin
 
 fun main (){
-    print("Masukkan kata : ")
+    print("Masukkan kata (huruf harus kapital) : ")
     var kata = readLine()!!.toString()
     words(kata)
 }
